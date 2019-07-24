@@ -1,0 +1,47 @@
+{
+  "name": "react-grace",
+  "version": "1.0.0",
+  "description": "React component for Grace",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasun90/react-grace.git"
+  },
+  "keywords": [
+    "React",
+    "Grace"
+  ],
+  "author": {
+    "name": "Kasun Piyumal",
+    "email": "kpiyumal90@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kasun90/react-grace/issues"
+  },
+  "homepage": "https://github.com/kasun90/react-grace#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "prop-types": "latest",
+    "webpack": "^4.37.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^3.1.0",
+    "style-loader": "^0.23.1",
+    "webpack-cli": "^3.3.6"
+  }
+}

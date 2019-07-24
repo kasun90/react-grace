@@ -1,0 +1,22 @@
+.grace-general section {
+    background: black;
+    color: white;
+}
+
+.grace-general .grace-code {
+    background-color: #F6F8FA;
+    word-wrap: normal;
+    overflow: auto;
+}
+
+.grace-general .grace-code-list {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+}
+
+.grace-general .grace-code-list li::before {
+    content: attr(prefix);
+    margin-right: 0.5em;
+    margin-left: 0.1em;
+}
