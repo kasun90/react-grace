@@ -13,3 +13,7 @@ that should be fed in to this component.
 ### Issues
 
 If you find a bug, please file an issue on [GitHub](https://github.com/kasun90/react-grace/issues).
+
+### Author
+
+[Kasun Piyumal](https://github.com/kasun90)
